@@ -1,0 +1,41 @@
+
+body {
+	text-align: left;
+}
+
+hr {
+	
+}
+
+#intro {
+	background-color: hsla(113,23%,57%,1);
+	background-repeat: no-repeat;
+	background-position: 100% 0px;
+}
+
+#intro_img {
+}
+
+#peewee_img {
+	
+}
+
+#friday_img {
+	
+}
+
+#pros_img {
+	
+}
+footer {
+	background-color: hsla(0,0%,0%,1);
+	background-repeat: no-repeat;
+	background-position: 100% bottom;
+	clear: both;
+	overflow: auto;
+	position: relative;
+	height: auto;
+	width: auto;
+}
+section {
+}
