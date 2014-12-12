@@ -14,6 +14,22 @@
     <!--The BODY tag will allow storage of webpage content within the browser window-->
     <body>
     	<!--Begin 'head_nav' SECTION container below-->
+        <!doctype html>
+<!--Every page should be encapsulated in an HTML element tag-->
+<html>
+    <!--The HEAD tag holds the external linked pages-->
+<head>
+        <!--The META tag allows for search engines to find content topic of the webpage-->
+<meta>
+        <!--The TITLE tag allows the browser to display a title of the webpage to the title bar-->
+<title>
+        Football: The Sport Of Kings!
+</title>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+    <!--The BODY tag will allow storage of webpage content within the browser window-->
+    <body>
+    	<!--Begin 'head_nav' SECTION container below-->
         <section id="head_nav">
             <!--Entire page body HEADER and proper title text below-->
             <header>
@@ -29,7 +45,7 @@
               <li><a href="#intro">Main</a></li>  
               <li><a href="#peewee">Peewee or Pop</a></li> 
               <li><a href="#friday">Friday Night Lights</a></li> 
-                    <li><a href="#pros">Past Pro Greats</a></li> 
+              <li><a href="#pros">Past Pro Greats</a></li> 
               <li><a href="#credits">Credits and Citation</a></li>
             </ul>
           </nav>
@@ -37,12 +53,14 @@
     <!--'intro' section seperation Horizontal Rule below-->    
 	<hr id="intro">        	
         <!--Begin 'intro' SECTION container below-->
-    <section>
-        	<!--'intro' HEADER and proper title text below-->
-            <header>
-            	<!--'intro' HEADING 2 title-->
-				<h2>Spectacular Catch!</h2>
-      </header>
+    <section id="intro_sect">
+        <!--'intro' HEADER and proper title text below-->
+        <header>
+            <!--'intro' HEADING 2 title-->
+            <h2 id="intro_hdr">
+            Spectacular Catch!
+            </h2>
+        </header>
             <!--'intro' FIGURE element tag to contain image and caption text below-->
             <figure>
             	<a href="images/nflobcatch.jpg">
@@ -81,13 +99,13 @@
     <!--'peewee' section seperation HORIZONTAL RULE below-->
     <hr id="peewee">
         <!--Begin 'peewee' SECTION container below-->
-    <section>
-        	<!--'peewee' HEADER and proper title text below-->
-            <header>
-            <!--'peewee' HEADING 2 title-->
-                <h2>
-                Remember Pee Wee or Pop
-                </h2>
+    <section id="peewee_sect">
+      <!--'peewee' HEADER and proper title text below-->
+      <header>
+        <!--'peewee' HEADING 2 title-->
+        <h2 id="peewee_hdr">
+        Remember Pee Wee or Pop
+        </h2>
       </header>
             <!--'peewee' FIGURE element tag to contain image and caption text below--> 
             <figure>
@@ -124,11 +142,13 @@
     <!--'friday' section seperation HORIZONTAL RULE below-->
     <hr id="friday">
         <!--Begin 'friday' SECTION container below-->
-    <section>
+    <section id="friday_sect">
             <!--'friday' HEADER and proper title text below-->
             <header>
             	<!--'Friday' HEADING 2 title-->
-				<h2>The Days Of Friday Night Lights</h2>
+				<h2>
+                The Days Of Friday Night Lights
+                </h2>
       </header>
             <!--'friday' FIGURE element tag to contain image and caption text below-->
             <figure>
@@ -164,11 +184,13 @@
     <!--'pros' section seperation HORIZONTAL RULE below-->
     <hr id="pros">
         <!--Begin 'pros' SECTION container below-->
-    <section>
+    <section id="pros_sect">
             <!--'pros' HEADER and proper title text below-->
             <header>
             	<!--'pros' HEADING 2 title-->
-				<h2>Past Pros That Inspire Greatness</h2>
+				<h2 id="pros_hdr">
+                Past Pros That Inspire Greatness
+                </h2>
       </header>
             <!--'pros' FIGURE element tag to contain image and caption text below-->
             <figure>
@@ -205,11 +227,11 @@
         <!--Begin 'credits' FOOTER element below-->
     <footer id ="credit_foot">
         <!--'citation' HEADER and proper title text below-->
-        <header>
+        <header id="credits_hdr">
             <h3>Credits and Citation</h3>
       </header>
          <!--'credits' ARTICLE container and proper text below-->       
-        <article>
+        <article id="credits_art">
             <!--Web page opening 'credits' PARAGRAPH tag, container, and proper text below-->
             <p>
             <em>Odell Beckham/Brian Dawkins</em> photos are provided courtesy of the NFL website image archives.
