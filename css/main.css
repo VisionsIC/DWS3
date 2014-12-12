@@ -21,60 +21,97 @@ hr {
 
 h1 {
 	font-family: 'sport_spirit_afregular';
+	text-shadow: 2px 2px hsla(0,0%,100%,0.82);
 	position: relative;
 	text-align: center;
+	background-color: hsla(0,100%,99%,0.80);
+	border: 1px solid #000000;
+}
+ol {
+	padding-left: 4%;
 }
 
-#intro {
-	background-color: hsla(113,23%,57%,1);
-	background-repeat: no-repeat;
-	background-position: 100% 0px;
+h2, h3 {
+	font-family: 'sport_spirit_afregular';
+	text-shadow: 2px 2px hsla(0,0%,100%,0.82);
+	position: relative;
+	text-align: left;
+	padding-top: 1%;
+	padding-right: 3%;
+	padding-left: 3%;
+	padding-bottom: 1%;
+	background: #c9de96;
+	/* Old browsers */
+
+	background: -moz-linear-gradient(top,  hsla(78,52%,73%,1) 0%, hsla(95,34%,57%,1) 44%, hsla(117,42%,36%,1) 100%);
+	/* FF3.6+ */
+
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,hsla(78,52%,73%,1)), 			color-stop(44%,hsla(95,34%,57%,1)), color-stop(100%,hsla(117,42%,36%,1)));
+	/* Chrome,Safari4+ */
+
+	background: -webkit-linear-gradient(top,  hsla(78,52%,73%,1) 0%,hsla(95,34%,57%,1) 44%,hsla(117,42%,36%,1) 100%);
+	/* Chrome10+,Safari5.1+ */
+
+	background: -o-linear-gradient(top,  hsla(78,52%,73%,1) 0%,hsla(95,34%,57%,1) 44%,hsla(117,42%,36%,1) 100%);
+	/* Opera 11.10+ */
+
+	background: -ms-linear-gradient(top,  hsla(78,52%,73%,1) 0%,hsla(95,34%,57%,1) 44%,hsla(117,42%,36%,1) 100%);
+	/* IE10+ */
+
+	background: linear-gradient(to bottom,  hsla(78,52%,73%,1) 0%,hsla(95,34%,57%,1) 44%,hsla(117,42%,36%,1) 100%);
+	/* W3C */
+
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9de96', endColorstr='#398235',GradientType=0 ); 
+	/* IE6-9 */
+	border: 1px solid #000000;
 }
 
-#intro_img {
+header {
+	width: 100%;
+
 }
 
-#peewee_img {
-	
+#intro_img, #peewee_img, #friday_img, #pros_img {
+	width: 518px;
+	height: 348px;
+	border: 1px solid #000000;
 }
 
-#friday_img {
-	
-}
-
-#pros_img {
-	
-}
 footer {
-	background-color: hsla(0,0%,0%,1);
+	background-image: url(images/foot_texture.jpeg);
 	background-repeat: no-repeat;
-	background-position: 100% bottom;
-	color: #fff;
+	background-size: 100%;
+	border: 1px solid #000000;
 	clear: both;
 	overflow: auto;
 	position: relative;
 	height: auto;
 	width: auto;
+	padding: 0% 5%;
 }
 section {
 	position: relative;
 	width: 100%;
 	float: left;
+	visibility: visible;
 }
+
 figure {
 	float: left;
 	overflow: auto;
+	
 }
 
 article {
-
+	background-color: hsla(0,0%,100%,0.80);
+	background-size: 100%;
+	border: 1px solid #000000;
 }
 
 nav {
     width: 100%;
-    background: #f0f0f0;
+    background: hsla(0,0%,100%,0.80);
     border: 1px solid #000000;
-    border-right: none;
 }
  
 nav ul {
@@ -102,4 +139,27 @@ nav ul li a {
     text-decoration: none;
     color: #000000;
     padding: 10px 0;
+}
+
+#head_nav {
+	background-image: url(images/football_bg.png);
+	background-repeat: no-repeat;
+	background-size: 100%
+}
+
+#intro_sect, #peewee_sect, #friday_sect, #pros_sect {
+	background-image: url(images/footballfield2.jpg);
+	background-repeat: no-repeat;
+	background-color: hsla(0,0%,100%,0.50);
+	background-size: 100%;
+	border: 1px solid #000000;
+	padding-top: 0px;
+}
+
+#credits_art  {
+	background-color: hsla(0,100%,99%,0.80);
+	border-radius: 15px;
+	padding: 2% 2%;
+	margin-bottom: 2%;
+	border: 1px solid #000000;
 }
