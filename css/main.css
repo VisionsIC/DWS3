@@ -1,3 +1,5 @@
+/**********************CSS - Stylesheet********************/
+/*This group of CSS selectors deal with general page style*/
 @font-face {
     font-family: 'sport_spirit_afregular';
     src: url('type/sport___-webfont.eot');
@@ -9,16 +11,16 @@
     font-weight: normal;
     font-style: normal;
 }
-
+/* Body style to make all page text align to the left*/
 body {
 	text-align: left;
 }
-
+/* Horizontal Rule styles to the webpage*/
 hr {
 	width: 100%;	
 	clear: both;
 }
-
+/* H1 styles to make page Title Header effects and transparency*/
 h1 {
 	font-family: 'sport_spirit_afregular';
 	text-shadow: 2px 2px hsla(0,0%,100%,0.82);
@@ -27,10 +29,11 @@ h1 {
 	background-color: hsla(0,100%,99%,0.80);
 	border: 1px solid #000000;
 }
+/* Ordered List styles to apply padding to left*/
 ol {
 	padding-left: 4%;
 }
-
+/* H2, H3 styles to make all Title Headers effects and gradients*/
 h2, h3 {
 	font-family: 'sport_spirit_afregular';
 	text-shadow: 2px 2px hsla(0,0%,100%,0.82);
@@ -40,45 +43,38 @@ h2, h3 {
 	padding-right: 3%;
 	padding-left: 3%;
 	padding-bottom: 1%;
+	/* Gradient Styles */
 	background: #c9de96;
 	/* Old browsers */
-
 	background: -moz-linear-gradient(top,  hsla(78,52%,73%,1) 0%, hsla(95,34%,57%,1) 44%, hsla(117,42%,36%,1) 100%);
 	/* FF3.6+ */
-
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,hsla(78,52%,73%,1)), 			color-stop(44%,hsla(95,34%,57%,1)), color-stop(100%,hsla(117,42%,36%,1)));
 	/* Chrome,Safari4+ */
-
 	background: -webkit-linear-gradient(top,  hsla(78,52%,73%,1) 0%,hsla(95,34%,57%,1) 44%,hsla(117,42%,36%,1) 100%);
 	/* Chrome10+,Safari5.1+ */
-
 	background: -o-linear-gradient(top,  hsla(78,52%,73%,1) 0%,hsla(95,34%,57%,1) 44%,hsla(117,42%,36%,1) 100%);
 	/* Opera 11.10+ */
-
 	background: -ms-linear-gradient(top,  hsla(78,52%,73%,1) 0%,hsla(95,34%,57%,1) 44%,hsla(117,42%,36%,1) 100%);
 	/* IE10+ */
-
 	background: linear-gradient(to bottom,  hsla(78,52%,73%,1) 0%,hsla(95,34%,57%,1) 44%,hsla(117,42%,36%,1) 100%);
 	/* W3C */
-
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9de96', endColorstr='#398235',GradientType=0 ); 
 	/* IE6-9 */
 	border: 1px solid #000000;
 }
-
+/* This style selector applies 100% width across the page*/
 header {
 	width: 100%;
-
 }
-
+/* Image ID styles to make all images on page one standard size, and thin black border*/
 #intro_img, #peewee_img, #friday_img, #pros_img {
 	width: 518px;
 	height: 348px;
 	border: 1px solid #000000;
 }
-
+/* Footer styles to add effects to the page*/
 footer {
-	background-image: url(images/foot_texture.jpeg);
+	background-image: url(../../DWS3/images/foot_texture.jpeg);
 	background-repeat: no-repeat;
 	background-size: 100%;
 	border: 1px solid #000000;
@@ -89,6 +85,7 @@ footer {
 	width: auto;
 	padding: 0% 5%;
 }
+/* Section styles to make the section area uniform */
 section {
 	position: relative;
 	width: 100%;
@@ -96,31 +93,50 @@ section {
 	visibility: visible;
 	border: 1px solid #000000;
 }
-
+/* Figure styles to make all images in figure area uniform*/
 figure {
 	float: left;
 	overflow: auto;
-	
+	background-color: hsla(0,0%,100%,1.00);
+	border: 1px solid #000000;
+	border-radius: 15px;
+	padding: 1%
 }
-
+/* Article styles to make all text, paragraph effects*/
 article {
 	background-color: hsla(0,0%,100%,0.80);
 	background-size: 100%;
+	width: 100%;
+	height: 100%;
 	border: 1px solid #000000;
 }
-
+/* Blockquote styles to make important points in the page text, and paragraphs stand out*/
+Blockquote {
+	color: hsla(113,38%,39%,1.00);
+	text-shadow: 1px 1px hsla(0,0%,0%,1.00);
+	border: 1px solid #000000;
+	border-radius: 15px;
+	background: hsla(0,0%,84%,0.70);
+	padding-top: .5%;
+	padding-bottom: .5%;
+}
+/* H2, H3 styles to make all Title Headers effects and gradients*/
+img a:hover {
+	border: 1px solid hsla(147,90%,50%,1.00);
+}
+/* Nav styles to make all navigation element effects and functions*/
 nav {
     width: 100%;
     background: hsla(0,0%,100%,0.80);
     border: 1px solid #000000;
 }
- 
+/* H2, H3 styles to make all Title Headers effects and gradients*/ 
 nav ul {
     overflow: hidden;
     margin: 0;
     padding: 0;
 }
- 
+/* H2, H3 styles to make all Title Headers effects and gradients*/ 
 nav ul li {
     list-style: none;
     float: left;
@@ -130,33 +146,45 @@ nav ul li {
     width: calc(100% / 6);
     box-sizing: border-box;
 }
- 
+/* H2, H3 styles to make all Title Headers effects and gradients*/ 
 nav ul li:first-child {
     border-left: none;
 }
- 
+/* H2, H3 styles to make all Title Headers effects and gradients*/ 
 nav ul li a {
     display: block;
     text-decoration: none;
     color: #000000;
     padding: 10px 0;
 }
-
+/* H2, H3 styles to make all Title Headers effects and gradients*/
+nav ul li a:hover {
+    display: block;
+    text-decoration: none;
+    color: hsla(0,0%,100%,1.00);
+	background-color: hsla(0,0%,0%,0.25);
+    padding: 10px 0;
+}
+/* H2, H3 styles to make all Title Headers effects and gradients*/
+#last_box {
+	border-right: 1px solid #000000;
+}
+/* H2, H3 styles to make all Title Headers effects and gradients*/
 #head_nav {
-	background-image: url(images/football_bg.png);
+	background-image: url(../../DWS3/images/football_bg.png);
 	background-repeat: no-repeat;
 	background-size: 100%
 }
-
+/* H2, H3 styles to make all Title Headers effects and gradients*/
 #intro_sect, #peewee_sect, #friday_sect, #pros_sect {
-	background-image: url(images/footballfield2.jpg);
+	background-image: url(../../DWS3/images/footballfield2.jpg);
 	background-repeat: no-repeat;
 	background-color: hsla(0,0%,100%,0.50);
 	background-size: 100%;
 	border: 1px solid #000000;
 	padding-top: 0px;
 }
-
+/* H2, H3 styles to make all Title Headers effects and gradients*/
 #credits_art  {
 	background-color: hsla(0,100%,99%,0.80);
 	border-radius: 15px;
